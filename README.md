@@ -29,8 +29,8 @@ The emotion with maximum score is displayed on the screen.
 
 ### Example:
 
-![image](https://user-images.githubusercontent.com/46122725/178147886-af0a18ea-0445-415a-83c2-59199789a428.png)
-![image](https://user-images.githubusercontent.com/46122725/178147890-314246cc-cc5d-430d-a953-ff2863ab1724.png)
+![image](https://user-images.githubusercontent.com/46122725/178147961-ae774ad0-db46-45cd-af6d-0470d78845ef.png)
+
 ![image](https://user-images.githubusercontent.com/46122725/178147931-6c500b35-2673-4c4e-8bda-8d2e87d46456.png)
 
 
