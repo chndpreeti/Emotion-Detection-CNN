@@ -7,17 +7,17 @@ The model is trained on the FER-2013 dataset which was published on Internationa
 This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
 
-# Dataset
+#### Dataset
 This project use Fer2013 Dataset from kaggle competition https://bit.ly/39eIAZm
 
 
-# Dependencies
+#### Dependencies
 
 Python 3, OpenCV, Tensorflow
 
 
 
-## Algorithm
+#### Algorithm
 
 First, the haar cascade method is used to detect faces in each frame of the webcam feed.
 
@@ -33,16 +33,16 @@ The emotion with maximum score is displayed on the screen.
 #### Model Training :
 Run the Train_DATA_Emo.py script. The model will get trained on the dataset. The number of epochs run are 100 . Model weights will be saved to the data/model directory, and at the completion of the training, the best model will be moved into the data/savedmodels directory.The json file containing the model architecture will also be saved there. 
 
-## Model Testing: 
+#### Model Testing: 
 Run the Test_DATA_Emo.py script. You can edit which model weights and architecture you want to use at the location at the top of the file. From there, you can run model.evaluate on the pre-loaded training and testing data, you can run model.predict on any custom images you want to test, or run any other operations with the model. 
 
-## Live Emotion Detection: 
+#### Live Emotion Detection: 
 Run EvaluateEmotionDetector.py for face detection to detect face emotion by web cam in real time.
 The script will output a bounding box around the faces detected and a emotion tag with highest confidence score arounf it.
 
 Below I have added some example by using the face detection on video files 
 
-### Example:
+#### Example:
 ![image](https://user-images.githubusercontent.com/46122725/178147961-ae774ad0-db46-45cd-af6d-0470d78845ef.png)
 
 ![image](https://user-images.githubusercontent.com/46122725/178147931-6c500b35-2673-4c4e-8bda-8d2e87d46456.png)
