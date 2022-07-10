@@ -1,18 +1,16 @@
 # Face-Emotion-Detection
 
-Face Emotions classfication using CNN 
-
 This project aims to classify the emotion on a person's face into one of seven categories, using deep convolutional neural networks. 
 The model is trained on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). 
 This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-#### Dataset
+## Dataset
 This project use Fer2013 Dataset from kaggle competition https://bit.ly/39eIAZm
 
-#### Dependencies
+## Dependencies
 Python 3, OpenCV, Tensorflow
 
-#### Algorithm
+## Algorithm
 
 - First, the haar cascade method is used to detect faces in each frame of the webcam feed.
 
@@ -39,7 +37,7 @@ The script will output a bounding box around the faces detected and a emotion ta
 
 Below are some example by using the face detection on video files.
 
-#### Example:
+### Example:
 ![image](https://user-images.githubusercontent.com/46122725/178147961-ae774ad0-db46-45cd-af6d-0470d78845ef.png)
 
 ![image](https://user-images.githubusercontent.com/46122725/178147931-6c500b35-2673-4c4e-8bda-8d2e87d46456.png)
