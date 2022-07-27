@@ -1,3 +1,9 @@
+# Introduction
+A python application that detects Face and classifies Emotions using deep convolution neural networks.
+The accuracy of detection and classification achieved by employing deep convolution neural networks.
+The application detects and classifies emotions in real-time.
+
+
 # Face-Emotion-Detection
 
 This project aims to classify the emotion on a person's face into one of seven categories, using deep convolutional neural networks. 
